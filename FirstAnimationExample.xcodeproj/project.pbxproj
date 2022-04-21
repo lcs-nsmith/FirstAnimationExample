@@ -11,6 +11,7 @@
 		4AE2B9432811ADE5006C9D9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2B9422811ADE5006C9D9C /* ContentView.swift */; };
 		4AE2B9452811ADE8006C9D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2B9442811ADE8006C9D9C /* Assets.xcassets */; };
 		4AE2B9482811ADE8006C9D9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2B9472811ADE8006C9D9C /* Preview Assets.xcassets */; };
+		4AE2B94F2811BA1A006C9D9C /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2B94E2811BA1A006C9D9C /* FontsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4AE2B9422811ADE5006C9D9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AE2B9442811ADE8006C9D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE2B9472811ADE8006C9D9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AE2B94E2811BA1A006C9D9C /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4AE2B9402811ADE5006C9D9C /* FirstAnimationExampleApp.swift */,
 				4AE2B9422811ADE5006C9D9C /* ContentView.swift */,
+				4AE2B94E2811BA1A006C9D9C /* FontsView.swift */,
 				4AE2B9442811ADE8006C9D9C /* Assets.xcassets */,
 				4AE2B9462811ADE8006C9D9C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE2B94F2811BA1A006C9D9C /* FontsView.swift in Sources */,
 				4AE2B9432811ADE5006C9D9C /* ContentView.swift in Sources */,
 				4AE2B9412811ADE5006C9D9C /* FirstAnimationExampleApp.swift in Sources */,
 			);
