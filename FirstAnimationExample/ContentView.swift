@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: Stored Properties
+    @State var scaleFactor = 1.0
+    
+    // MARK: Computed Properties
     var body: some View {
-        Text("Hello, world!")
+        VStack (alignment: .center){
+            Circle()
+                .scaleEffect(scaleFactor)
+                .animation(.easeInOut)
+                .onTapGesture {
+                    scaleFactor -= 0.05
+                }
+            Stepper("Change Size",
+                    value: $scaleFactor,
+                    in: 0.0...1.0,
+                    step: 0.05)
             .padding()
+            .padding(.horizontal, 42)
+            Spacer()
+        }
     }
 }
 
