@@ -22,8 +22,8 @@ struct ContentView: View {
                 }
             Stepper("Change Size",
                     value: $scaleFactor,
-                    in: 0.0...1.0,
-                    step: 0.05)
+                    in: 0.1...1.5,
+                    step: 0.1)
             .padding()
             .padding(.horizontal, 42)
             Spacer()
